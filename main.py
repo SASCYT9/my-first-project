@@ -1,7 +1,7 @@
 import pyautogui
 from PIL import ImageGrab
 import keyboard
-
+import random
 print("Наведіть мишку на потрібне місце і натисніть SPACE")
 
 selected_pos = None
@@ -16,3 +16,4 @@ def on_space():
 
 keyboard.on_press_key("space", lambda _: on_space())
 keyboard.wait("esc")
+# Це коментар для гітхабу : Збереження позиції та кольору завершено. Натисніть ESC для виходу.
